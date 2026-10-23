@@ -25,7 +25,7 @@
 
 > Source code for these projects is private. Live demos and code walkthroughs are available on request.
 
-#### 🌐 [MohajerX](https://mohajerx.com) — AI immigration news platform
+#### 🌐 [MohajerX] — AI immigration news platform
 Automated immigration intelligence for the 30 most popular destination countries, monitoring 150+ official government sources.
 - Ingestion pipeline (RSS/Atom, HTML extraction, headless browser) with content-hash diffing so the LLM runs only when a source actually changes
 - Anti-hallucination design: extraction-only prompts grounded in fetched source text, with every article reviewed by an editor before publishing
@@ -33,7 +33,7 @@ Automated immigration intelligence for the 30 most popular destination countries
 - Sequential article IDs via atomic Firestore transactions
 - **Stack:** React 19, Vite, Express, Firebase, OpenAI, Docker, Cloudflare, GitHub Actions
 
-#### 📊 Tarazoo (ترازو) — financial intelligence platform
+#### 📊 Taraz (تراز) — financial intelligence platform
 Turns company disclosures from Codal (Iran's stock-market disclosure system) into clear, readable analysis: quarter-over-quarter and year-over-year comparisons and industry benchmarks.
 - Web app + background worker + PostgreSQL, containerized on ArvanCloud
 - Paid subscriptions with online payments; Telegram & Bale bots for news delivery
@@ -42,7 +42,7 @@ Turns company disclosures from Codal (Iran's stock-market disclosure system) int
 #### 💳 Dinarak (دینارک)
 TypeScript product deployed on a Kubernetes cluster.
 
-#### 🍽️ food1 · 🃏 Taash
+#### 🍽️ food and crm company · 🃏 Taash
 TypeScript web apps, containerized and deployed on ArvanCloud with automated CI/CD.
 
 #### 🎮 GameNet PC
@@ -54,5 +54,4 @@ Company-wide internal AI chat portal for employees, built on ArvanCloud AI-as-a-
 ---
 
 ### 📫 Get in touch
-- 🌐 [mohajerx.com](https://mohajerx.com)
 - 💼 Open to opportunities — feel free to reach out
